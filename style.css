@@ -4,15 +4,15 @@ html,
   padding: 0;
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: lightblue;
 }
 
 body {
-  background-color: lavender;
+  background-color: rgb(76, 76, 117);
 }
 
 header {
-  background-color: rgb(197, 197, 248);
-  color: black;
+  background-color: rgb(68, 68, 90);
   padding: 20px;
   position: fixed;
   top: 0;
@@ -27,6 +27,7 @@ nav a {
 
 main {
   margin-top: 100px;
+  text-align: center;
 }
 
 .feature {
@@ -34,8 +35,9 @@ main {
 }
 
 p {
-  padding-left: 50px;
+  text-align: center;
   width: 50%;
+  margin: auto;
 }
 
 figure {
@@ -53,13 +55,21 @@ form {
 .text-field {
   margin-left: 50px;
   margin-bottom: 20px;
+  padding: 5px;
 }
 
 .email-field {
   margin-left: 50px;
+  padding: 5px;
+}
+
+button {
+  color: black;
+  padding: 5px;
 }
 
 footer {
-  background-color: rgb(197, 197, 248);
+  background-color: rgb(68, 68, 90);
   padding: 30px;
+  text-align: center;
 }
