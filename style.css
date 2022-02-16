@@ -1,0 +1,65 @@
+html,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: lavender;
+}
+
+header {
+  background-color: rgb(197, 197, 248);
+  color: black;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+nav a {
+  float: right;
+  margin: 10px;
+}
+
+main {
+  margin-top: 100px;
+}
+
+.feature {
+  padding: 50px 50px;
+}
+
+p {
+  padding-left: 50px;
+  width: 50%;
+}
+
+figure {
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.contact {
+  padding: 50px 50px;
+}
+
+form {
+}
+
+.text-field {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.email-field {
+  margin-left: 50px;
+}
+
+footer {
+  background-color: rgb(197, 197, 248);
+  padding: 30px;
+}
